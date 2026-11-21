@@ -22,7 +22,9 @@ RES = os.path.join(HERE, "results")
 OLLAMA = "http://localhost:11434/api/chat"
 JUDGES = ["llama3.1:8b", "qwen2.5:7b", "gemma3:12b"]
 LANGS = ["en", "ur", "ru"]
-CONDITIONS = ["en", "ur", "ru", "ur2en", "ru2en"]
+CONDITIONS = ["en", "ur", "ru", "ur2en", "ru2en", "ur_rag", "ru_rag"]
+EMBED_MODEL = "bge-m3"  # multilingual embedding model (covers Urdu and Latin-script text)
+OLLAMA_EMBED = "http://localhost:11434/api/embed"
 ITEM_NAMES = ["interest", "mood", "sleep", "energy", "appetite", "self-worth", "concentration", "psychomotor", "self-harm"]
 
 
@@ -140,6 +142,60 @@ def parse(s):
         return None
 
 
+# ---------------- RAG: retrieve Urdu / Roman Urdu glossary notes ----------------
+_GLOSS = None
+
+
+def embed(texts):
+    body = json.dumps({"model": EMBED_MODEL, "input": texts}).encode()
+    req = urllib.request.Request(OLLAMA_EMBED, data=body, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=600) as r:
+        return json.loads(r.read())["embeddings"]
+
+
+def glossary():
+    """Load the glossary and embed each entry once (cached on disk)."""
+    global _GLOSS
+    if _GLOSS is None:
+        import numpy as np
+        with open(os.path.join(DATA, "glossary.json"), encoding="utf-8") as f:
+            G = json.load(f)
+        cache = os.path.join(DATA, "glossary_emb.json")
+        docs = [f"{g['term']}. {g['ur']}. {g['ru']}. {g['note']}" for g in G]
+        if os.path.exists(cache):
+            with open(cache, encoding="utf-8") as f:
+                c = json.load(f)
+        if not os.path.exists(cache) or c.get("docs") != docs:
+            c = {"docs": docs, "emb": embed(docs)}
+            with open(cache, "w", encoding="utf-8") as f:
+                json.dump(c, f)
+        E = np.array(c["emb"], float)
+        _GLOSS = (G, E / np.linalg.norm(E, axis=1, keepdims=True))
+    return _GLOSS
+
+
+def retrieve(text, per_turn=2, max_notes=6):
+    """Dense retrieval: embed each User turn, take the top glossary entries by cosine similarity."""
+    import numpy as np
+    G, E = glossary()
+    turns = [l[5:].strip() for l in text.splitlines() if l.startswith("User:")]
+    Q = np.array(embed(turns), float)
+    Q = Q / np.linalg.norm(Q, axis=1, keepdims=True)
+    S = Q @ E.T
+    best = {}
+    for row in S:
+        for i in np.argsort(-row)[:per_turn]:
+            best[i] = max(best.get(i, -1), row[i])
+    chosen = sorted(best, key=lambda i: -best[i])[:max_notes]
+    return [G[i] for i in chosen]
+
+
+def rag_prompt(text):
+    notes = "\n".join(f"- {g['term']}: {g['note']} (Urdu: {g['ur']} | Roman Urdu: {g['ru']})" for g in retrieve(text))
+    return ("Reference notes on how Urdu and Roman Urdu speakers describe these experiences "
+            "(retrieved from a glossary; use them only to interpret the language):\n" + notes + "\n\n" + judge_prompt(text))
+
+
 def keep_awake():
     """Stop Windows from sleeping while the run is active (released automatically when the process exits)."""
     if os.name == "nt":
@@ -159,8 +215,12 @@ def judge():
             for cond in CONDITIONS:
                 if (jm, pid, cond) in done:
                     continue
+                prompt_fn = judge_prompt
                 if cond in LANGS:
                     text = D[(pid, cond)]
+                elif cond.endswith("_rag"):  # original language + retrieved glossary notes
+                    text = D[(pid, cond[:2])]
+                    prompt_fn = rag_prompt
                 else:  # self-translate first, then judge in English
                     src = cond[:2]
                     if (jm, pid, src) not in trans:
@@ -168,10 +228,11 @@ def judge():
                         jl_add(tpath, {"judge": jm, "id": pid, "lang": src, "text": t})
                         trans[(jm, pid, src)] = t
                     text = trans[(jm, pid, src)]
-                raw = chat(jm, SYS_J, judge_prompt(text), as_json=True)
+                prompt = prompt_fn(text)
+                raw = chat(jm, SYS_J, prompt, as_json=True)
                 sc = parse(raw)
                 if sc is None:  # one retry with a stricter reminder
-                    raw = chat(jm, SYS_J, judge_prompt(text) + "\n\nReply with the JSON object only, all nine keys.", as_json=True)
+                    raw = chat(jm, SYS_J, prompt + "\n\nReply with the JSON object only, all nine keys.", as_json=True)
                     sc = parse(raw)
                 jl_add(rpath, {"judge": jm, "id": pid, "cond": cond, "raw": raw, "scores": sc})
             print(jm, pid, "done", flush=True)
@@ -247,7 +308,7 @@ def results():
     tests = []
     for j, g in R.groupby("judge"):
         piv = g.pivot(index="id", columns="cond", values="abs_err")
-        for a, b in [("en", "ur"), ("en", "ru"), ("ur", "ur2en"), ("ru", "ru2en")]:
+        for a, b in [("en", "ur"), ("en", "ru"), ("ur", "ur2en"), ("ru", "ru2en"), ("ur", "ur_rag"), ("ru", "ru_rag")]:
             if a in piv and b in piv:
                 s = piv[[a, b]].dropna()
                 tests.append({"judge": j, "compare": f"{a} vs {b}", "n": len(s), "mean_diff(b-a)": (s[b] - s[a]).mean(),
@@ -288,17 +349,17 @@ def results():
         lines += ["## MAE using only translations marked faithful\n", "```\n" + Mv.to_string() + "\n```", ""]
 
     # charts
-    order = ["en", "ur", "ru", "ur2en", "ru2en"]
-    labels = ["English", "Urdu script", "Roman Urdu", "Urdu→EN (self-translated)", "Roman Urdu→EN"]
+    order = CONDITIONS
+    labels = ["English", "Urdu script", "Roman Urdu", "Urdu→EN (self-translated)", "Roman Urdu→EN", "Urdu + glossary RAG", "Roman Urdu + glossary RAG"]
     M = T.pivot(index="judge", columns="condition", values="MAE")[order]
-    ax = M.plot(kind="bar", figsize=(9, 4.5), width=0.8)
+    ax = M.plot(kind="bar", figsize=(11, 4.5), width=0.85)
     ax.set_ylabel("Mean absolute error (PHQ-9 points, lower is better)")
     ax.set_title("PHQ-9 scoring error by language and judge")
     ax.legend(labels, fontsize=8)
     plt.xticks(rotation=0); plt.tight_layout(); plt.savefig(os.path.join(RES, "fig1_mae.png"), dpi=200); plt.close()
 
     S = T.pivot(index="judge", columns="condition", values="sensitivity@10")[order]
-    ax = S.plot(kind="bar", figsize=(9, 4.5), width=0.8)
+    ax = S.plot(kind="bar", figsize=(11, 4.5), width=0.85)
     ax.set_ylabel("Sensitivity at PHQ-9 >= 10")
     ax.set_title("Share of moderate-or-worse cases the judge catches")
     ax.set_ylim(0, 1.05); ax.legend(labels, fontsize=8)
