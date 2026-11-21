@@ -29,6 +29,9 @@ ITEM_NAMES = ["interest", "mood", "sleep", "energy", "appetite", "self-worth", "
 
 
 # ---------------- helpers ----------------
+LAST = {}
+
+
 def chat(model, system, user, num_predict=200, as_json=False):
     # num_ctx 8192: Urdu script costs many more tokens than English; the Ollama default context
     # would silently truncate long Urdu inputs and bias the comparison against Urdu.
@@ -43,6 +46,7 @@ def chat(model, system, user, num_predict=200, as_json=False):
             req = urllib.request.Request(OLLAMA, data=body, headers={"Content-Type": "application/json"})
             with urllib.request.urlopen(req, timeout=1800) as r:
                 out = json.loads(r.read())
+            LAST["prompt_tokens"] = out.get("prompt_eval_count")
             if out.get("prompt_eval_count", 0) >= 8192:
                 print("WARN: input may be truncated", model, flush=True)
             return out["message"]["content"].strip()
@@ -234,7 +238,8 @@ def judge():
                 if sc is None:  # one retry with a stricter reminder
                     raw = chat(jm, SYS_J, prompt + "\n\nReply with the JSON object only, all nine keys.", as_json=True)
                     sc = parse(raw)
-                jl_add(rpath, {"judge": jm, "id": pid, "cond": cond, "raw": raw, "scores": sc})
+                jl_add(rpath, {"judge": jm, "id": pid, "cond": cond, "raw": raw, "scores": sc,
+                               "prompt_tokens": LAST.get("prompt_tokens")})
             print(jm, pid, "done", flush=True)
 
 
@@ -323,6 +328,12 @@ def results():
     Tt = Tt.round(3)
     Tt.to_csv(os.path.join(RES, "paired_tests.csv"), index=False)
     lines += ["## Paired permutation tests (same persona, different language)\n", "```\n" + Tt.to_string(index=False) + "\n```", ""]
+
+    # token cost of each language (same content, different script)
+    if "prompt_tokens" in R:
+        Tk = R.groupby(["judge", "cond"])["prompt_tokens"].mean().unstack()
+        Tk = Tk[[c for c in CONDITIONS if c in Tk]].round(0)
+        lines += ["## Mean prompt tokens per judgement (same content, different language)\n", "```\n" + Tk.to_string() + "\n```", ""]
 
     # item-level: which symptoms get lost in which language?
     item_rows = []

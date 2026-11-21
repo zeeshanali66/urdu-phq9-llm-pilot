@@ -23,6 +23,9 @@ Mental-health chatbots and LLM-based screening tools are mostly built and tested
   - paired permutation tests across languages
   - item-level bias (which symptoms are lost)
 
+## Research log
+The problems we ran into and how each was addressed (confounded translations, ambiguous ground truth, silent context truncation for Urdu script, safety, multiple comparisons, and more) are documented in [`docs/RESEARCH_LOG.md`](docs/RESEARCH_LOG.md).
+
 ## Reproduce
 ```bash
 ollama pull llama3.1:8b && ollama pull qwen2.5:7b && ollama pull gemma3:12b && ollama pull bge-m3
