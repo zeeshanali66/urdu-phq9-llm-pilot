@@ -1,0 +1,10 @@
+# private planning notes (not for the public repo)
+PLAN.md
+GUIDE.md
+LEARN.md
+writeups/
+urdu_phq9_pilot.ipynb
+# local logs
+results/temps.log
+data/validation_TODO.csv
+__pycache__/

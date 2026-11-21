@@ -1,0 +1,31 @@
+id,name,age,gender,occupation,city,stressor,band,phq9_total,q1,q2,q3,q4,q5,q6,q7,q8,q9
+P01,Waqas,29,M,delivery rider,Rawalpindi,unsafe work and low pay,minimal,1,0,0,0,0,0,0,1,0,0
+P02,Usman,36,M,shopkeeper,Peshawar,business losses after inflation,minimal,2,1,0,0,1,0,0,0,0,0
+P03,Imran,34,M,rickshaw driver,Karachi,debt and long hours,minimal,3,1,0,1,0,1,0,0,0,0
+P04,Zubair,55,M,farmer,Sahiwal,crop losses after floods,minimal,3,0,1,1,0,0,0,1,0,0
+P05,Ali,45,M,factory supervisor,Sialkot,job cut rumours and three children's fees,minimal,4,0,1,1,1,1,0,0,0,0
+P06,Laiba,23,F,MPhil student,Quetta,research pressure and homesickness,minimal,0,0,0,0,0,0,0,0,0,0
+P07,Ahmed,27,M,software engineer,Lahore,burnout and remote work alone,mild,5,1,2,0,1,0,1,0,0,0
+P08,Ayesha,24,F,university student,Lahore,final-year exams and family pressure about marriage,mild,6,0,0,1,0,0,1,1,3,0
+P09,Kamran,50,M,retired soldier,Abbottabad,loneliness after children moved abroad,mild,7,0,1,1,2,2,0,0,1,0
+P10,Mehwish,33,F,homemaker,Gujranwala,conflict with in-laws,mild,8,0,2,1,0,1,2,1,1,0
+P11,Adeel,35,M,journalist,Karachi,job insecurity and stress,mild,9,1,1,1,0,1,3,1,1,0
+P12,Mahnoor,25,F,MBA graduate,Karachi,pressure to find a job and get married,mild,7,0,2,0,0,1,1,0,3,0
+P13,Noor,48,F,widow and homemaker,Sialkot,financial dependence after husband's death,moderate,10,2,1,0,0,2,2,1,2,0
+P14,Nimra,20,F,medical student,Lahore,exam pressure and sleep problems,moderate,11,1,1,2,2,1,0,2,2,0
+P15,Junaid,38,M,small business owner,Multan,partnership dispute,moderate,12,0,1,3,0,3,0,3,2,0
+P16,Iqra,32,F,pharmacist,Lahore,infertility worries and family questions,moderate,13,1,3,3,2,1,1,2,0,0
+P17,Talha,21,M,BS student,Lahore,comparison with classmates and low grades,moderate,14,3,0,2,2,1,2,3,1,0
+P18,Zainab,22,F,freelance designer,Rawalpindi,unstable income and isolation at home,moderate,12,2,3,1,2,0,1,1,2,0
+P19,Sadia,26,F,call centre agent,Islamabad,night shifts and a breakup,moderately severe,15,3,3,2,2,1,3,1,0,0
+P20,Haris,26,M,sales executive,Islamabad,targets and a toxic manager,moderately severe,16,2,2,3,1,1,3,1,3,0
+P21,Amna,37,F,lecturer,Peshawar,workload and a sick child,moderately severe,17,2,2,3,1,3,3,2,1,0
+P22,Saad,23,M,job seeker,Hyderabad,a year without finding a job,moderately severe,18,2,2,2,3,3,1,2,3,0
+P23,Hamza,19,M,FSc student,Faisalabad,failing entry test for engineering,moderately severe,19,3,3,1,3,2,3,1,3,0
+P24,Faisal,41,M,government clerk,Bahawalpur,health problems and money worries,moderately severe,17,1,3,2,1,3,2,3,2,0
+P25,Sana,42,F,school teacher,Multan,caring for her sick mother,severe,20,2,3,3,1,2,3,3,3,0
+P26,Bilal,31,M,bank officer,Karachi,long working hours and a heavy loan,severe,21,3,3,3,3,2,3,2,2,0
+P27,Saima,44,F,tailor,Faisalabad,husband working abroad and raising kids alone,severe,22,3,3,3,2,2,3,3,3,0
+P28,Hira,30,F,bank teller,Quetta,divorce and social judgement,severe,23,3,3,3,3,3,2,3,3,0
+P29,Fatima,28,F,nurse,Islamabad,night shifts and moving away from family,severe,24,3,3,3,3,3,3,3,3,0
+P30,Rabia,39,F,doctor,Karachi,grief after her father's death,severe,21,3,2,3,3,3,1,3,3,0

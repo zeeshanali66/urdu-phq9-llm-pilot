@@ -1,0 +1,179 @@
+### P19 en
+User: My engagement broke off two months ago, and I work night shifts at the call centre, so I am alone with my thoughts all night.
+Listener: I am sorry. That is a lot to carry. How have you been feeling?
+User: Nearly every day I feel hopeless and empty. Nothing I used to love, music, going out with my cousins, means anything now, nearly every day.
+Listener: That sounds very heavy. How do you feel about yourself?
+User: Nearly every day I think it was my fault, that I am not good enough for anyone. I replay everything I did wrong.
+Listener: How are your sleep and energy with the night shifts?
+User: Most days I cannot sleep even after the shift ends, and most days I feel completely drained. A few days I did not eat at all, and some days I miss what customers say on calls.
+Listener: Thank you for telling me. Have you been able to talk to anyone close to you, or a doctor?
+
+### P19 ur
+User: دو مہینے پہلے میری منگنی ٹوٹ گئی، اور میں کال سینٹر میں رات کی شفٹ کرتی ہوں، اس لیے ساری رات اپنے خیالوں کے ساتھ اکیلی ہوتی ہوں۔
+Listener: افسوس ہے۔ یہ بہت بڑا بوجھ ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز ناامیدی اور خالی پن محسوس ہوتا ہے۔ جو چیزیں مجھے پسند تھیں، موسیقی، کزنز کے ساتھ باہر جانا، تقریباً ہر روز ان کا کوئی مطلب نہیں لگتا۔
+Listener: یہ بہت بھاری لگتا ہے۔ آپ اپنے بارے میں کیسا محسوس کرتی ہیں؟
+User: تقریباً ہر روز سوچتی ہوں کہ قصور میرا تھا، کہ میں کسی کے قابل نہیں ہوں۔ جو کچھ غلط کیا وہ بار بار دماغ میں چلتا رہتا ہے۔
+Listener: رات کی شفٹ کے ساتھ نیند اور توانائی کیسی ہے؟
+User: زیادہ تر دن شفٹ ختم ہونے کے بعد بھی نیند نہیں آتی، اور زیادہ تر دن بالکل نڈھال رہتی ہوں۔ چند دن کچھ بھی نہیں کھایا، اور کچھ دن کالز پر گاہکوں کی بات ہی سمجھ نہیں آتی۔
+Listener: بتانے کا شکریہ۔ کیا آپ کسی قریبی شخص یا ڈاکٹر سے بات کر پائی ہیں؟
+
+### P19 ru
+User: Do mahine pehle meri mangni toot gayi, aur mein call centre mein night shift karti hoon, is liye sari raat apne khayalon ke sath akeli hoti hoon.
+Listener: Afsos hai. Yeh bohat bara bojh hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz na-umeedi aur khaali pan feel hota hai. Jo cheezein mujhe pasand thin, music, cousins ke sath bahar jana, taqreeban har roz un ka koi matlab nahi lagta.
+Listener: Yeh bohat heavy lagta hai. Aap apne baare mein kaisa feel karti hain?
+User: Taqreeban har roz sochti hoon ke qasoor mera tha, ke mein kisi ke qabil nahi hoon. Jo kuch ghalat kiya woh baar baar dimagh mein chalta rehta hai.
+Listener: Night shift ke sath neend aur energy kaisi hai?
+User: Zyada tar din shift khatam hone ke baad bhi neend nahi aati, aur zyada tar din bilkul nidhaal rehti hoon. Kuch din kuch bhi nahi khaya, aur kuch din calls pe customers ki baat hi samajh nahi aati.
+Listener: Batane ka shukriya. Kya aap kisi qareebi insaan ya doctor se baat kar payi hain?
+
+### P20 en
+User: My manager humiliates me in front of the team whenever I miss a target. I dread going in every morning.
+Listener: That sounds awful. How has it been affecting you?
+User: Nearly every day I feel worthless, like maybe he is right and I am useless at this job. And nearly every day I am so restless I cannot sit still, I keep pacing and shaking my leg.
+Listener: That sounds exhausting. How are you sleeping?
+User: Nearly every night I lie awake replaying his comments. Most days I feel down, and most days I do not even want to watch cricket anymore.
+Listener: What about energy, food and focus?
+User: Some days I feel tired, a few days I barely ate, and some days I lose focus during client calls.
+Listener: I am glad you told me. That kind of treatment is not your fault.
+
+### P20 ur
+User: جب بھی کوئی ٹارگٹ رہ جائے، میرا مینیجر پوری ٹیم کے سامنے میری بےعزتی کرتا ہے۔ ہر صبح دفتر جانے سے ڈر لگتا ہے۔
+Listener: یہ بہت برا ہے۔ اس کا آپ پر کیا اثر ہو رہا ہے؟
+User: تقریباً ہر روز خود کو بے وقعت محسوس کرتا ہوں، جیسے شاید وہ صحیح کہتا ہے اور میں اس کام کے لیے بے کار ہوں۔ اور تقریباً ہر روز اتنی بے چینی ہوتی ہے کہ ٹک کر بیٹھ نہیں پاتا، ٹہلتا رہتا ہوں اور ٹانگ ہلاتا رہتا ہوں۔
+Listener: یہ بہت تھکا دینے والا ہے۔ نیند کیسی ہے؟
+User: تقریباً ہر رات جاگتا رہتا ہوں اور اس کی باتیں دماغ میں دہراتا رہتا ہوں۔ زیادہ تر دن دل اداس رہتا ہے، اور زیادہ تر دن اب کرکٹ دیکھنے کا بھی دل نہیں کرتا۔
+Listener: توانائی، کھانا اور توجہ کیسی ہے؟
+User: کچھ دن تھکن ہوتی ہے، چند دن بمشکل کھایا، اور کچھ دن کلائنٹ کالز کے دوران توجہ ہٹ جاتی ہے۔
+Listener: اچھا کیا کہ آپ نے بتایا۔ ایسے سلوک میں آپ کا کوئی قصور نہیں۔
+
+### P20 ru
+User: Jab bhi koi target reh jaye, mera manager poori team ke samne meri insult karta hai. Har subah office jane se dar lagta hai.
+Listener: Yeh bohat bura hai. Is ka aap pe kya asar ho raha hai?
+User: Taqreeban har roz khud ko worthless feel karta hoon, jaise shayad woh sahi kehta hai aur mein is job ke liye bekaar hoon. Aur taqreeban har roz itni bechaini hoti hai ke tik ke baith nahi pata, tehalta rehta hoon aur taang hilata rehta hoon.
+Listener: Yeh bohat thaka dene wala hai. Neend kaisi hai?
+User: Taqreeban har raat jaagta rehta hoon aur us ki baatein dimagh mein dohrata rehta hoon. Zyada tar din dil udaas rehta hai, aur zyada tar din ab cricket dekhne ka bhi dil nahi karta.
+Listener: Energy, khana aur focus kaisa hai?
+User: Kuch din thakan hoti hai, kuch din mushkil se khaya, aur kuch din client calls ke dauran focus hat jata hai.
+Listener: Acha kiya ke aap ne bataya. Aise sulook mein aap ka koi qasoor nahi.
+
+### P21 en
+User: My son has been in and out of hospital for months, and I am still teaching full time at the college.
+Listener: That is an enormous load. How are you holding up?
+User: Nearly every night I barely sleep, I keep checking on him. And nearly every day I have no appetite, I live on tea.
+Listener: How do you feel about yourself in all this?
+User: Nearly every day I feel like a terrible mother and a terrible teacher, failing at both. Most days I feel low, and most days I have lost interest in anything for myself.
+Listener: How are your focus and energy?
+User: Most days I lose my place in the middle of a lecture. A few days I felt drained, and a few times I was so restless at the hospital I could not stay in the chair.
+Listener: Thank you for sharing. You are carrying so much at once.
+
+### P21 ur
+User: میرا بیٹا مہینوں سے ہسپتال آ جا رہا ہے، اور میں اب بھی کالج میں پورا وقت پڑھا رہی ہوں۔
+Listener: یہ بہت بڑا بوجھ ہے۔ آپ کیسے سنبھال رہی ہیں؟
+User: تقریباً ہر رات بمشکل سوتی ہوں، بار بار اسے دیکھتی رہتی ہوں۔ اور تقریباً ہر روز بھوک نہیں لگتی، بس چائے پر گزارا ہے۔
+Listener: اس سب میں آپ اپنے بارے میں کیسا محسوس کرتی ہیں؟
+User: تقریباً ہر روز لگتا ہے کہ میں بری ماں اور بری استاد ہوں، دونوں میں ناکام۔ زیادہ تر دن دل اداس رہتا ہے، اور زیادہ تر دن اپنے لیے کسی چیز میں دلچسپی نہیں رہی۔
+Listener: توجہ اور توانائی کیسی ہے؟
+User: زیادہ تر دن لیکچر کے بیچ میں بھول جاتی ہوں کہ کہاں تھی۔ چند دن نڈھال رہی، اور چند بار ہسپتال میں اتنی بے چینی ہوئی کہ کرسی پر بیٹھ نہیں سکی۔
+Listener: بتانے کا شکریہ۔ آپ ایک ساتھ بہت کچھ اٹھا رہی ہیں۔
+
+### P21 ru
+User: Mera beta mahino se hospital aa ja raha hai, aur mein ab bhi college mein full time parha rahi hoon.
+Listener: Yeh bohat bara bojh hai. Aap kaise sambhal rahi hain?
+User: Taqreeban har raat mushkil se soti hoon, baar baar usay dekhti rehti hoon. Aur taqreeban har roz bhook nahi lagti, bas chai pe guzara hai.
+Listener: Is sab mein aap apne baare mein kaisa feel karti hain?
+User: Taqreeban har roz lagta hai ke mein buri maa aur buri teacher hoon, dono mein fail. Zyada tar din dil udaas rehta hai, aur zyada tar din apne liye kisi cheez mein interest nahi raha.
+Listener: Focus aur energy kaisi hai?
+User: Zyada tar din lecture ke beech mein bhool jati hoon ke kahan thi. Kuch din nidhaal rahi, aur kuch baar hospital mein itni bechaini hui ke chair pe baith nahi saki.
+Listener: Batane ka shukriya. Aap ek sath bohat kuch utha rahi hain.
+
+### P22 en
+User: It has been a whole year since graduation and I still have no job. Every rejection email feels heavier.
+Listener: That sounds really discouraging. How have you been?
+User: Nearly every day I have no energy, even getting out of bed feels like a task. And nearly every day I have no appetite. My mother keeps telling me I have become thin.
+Listener: That is worrying. How do you move and talk these days?
+User: Nearly every day I feel slowed down, I talk slowly, I take ages to do simple things. Most days I feel down, and most days I have no interest in meeting friends.
+Listener: How are sleep and concentration?
+User: Most nights I sleep badly, and most days I cannot concentrate on preparing for interviews. Sometimes I feel like I am a disappointment to my parents.
+Listener: Thank you for opening up. A year like this would wear anyone down.
+
+### P22 ur
+User: گریجویشن کو پورا سال ہو گیا ہے اور اب تک نوکری نہیں ملی۔ ہر انکار والی ای میل پہلے سے زیادہ بھاری لگتی ہے۔
+Listener: یہ واقعی حوصلہ شکن ہے۔ آپ کیسے رہے ہیں؟
+User: تقریباً ہر روز توانائی نہیں ہوتی، بستر سے اٹھنا بھی ایک کام لگتا ہے۔ اور تقریباً ہر روز بھوک نہیں لگتی۔ امی کہتی رہتی ہیں کہ میں دبلا ہو گیا ہوں۔
+Listener: یہ فکر کی بات ہے۔ آج کل آپ کی حرکت اور بات چیت کیسی ہے؟
+User: تقریباً ہر روز خود کو سست محسوس کرتا ہوں، آہستہ بولتا ہوں، چھوٹے کاموں میں بھی بہت وقت لگتا ہے۔ زیادہ تر دن دل اداس رہتا ہے، اور زیادہ تر دن دوستوں سے ملنے میں کوئی دلچسپی نہیں رہی۔
+Listener: نیند اور توجہ کیسی ہے؟
+User: زیادہ تر راتیں نیند خراب رہتی ہے، اور زیادہ تر دن انٹرویو کی تیاری پر توجہ نہیں دے پاتا۔ کبھی کبھی لگتا ہے کہ میں امی ابو کے لیے مایوسی ہوں۔
+Listener: کھل کر بات کرنے کا شکریہ۔ ایسا سال کسی کو بھی تھکا دیتا ہے۔
+
+### P22 ru
+User: Graduation ko poora saal ho gaya hai aur ab tak job nahi mili. Har rejection email pehle se zyada bhaari lagti hai.
+Listener: Yeh waqai discouraging hai. Aap kaise rahe hain?
+User: Taqreeban har roz energy nahi hoti, bed se uthna bhi ek kaam lagta hai. Aur taqreeban har roz bhook nahi lagti. Ammi kehti rehti hain ke mein patla ho gaya hoon.
+Listener: Yeh fikar ki baat hai. Aaj kal aap ki movement aur baat cheet kaisi hai?
+User: Taqreeban har roz khud ko slow feel karta hoon, aahista bolta hoon, chote kaamon mein bhi bohat time lagta hai. Zyada tar din dil udaas rehta hai, aur zyada tar din doston se milne mein koi interest nahi raha.
+Listener: Neend aur focus kaisa hai?
+User: Zyada tar raatein neend kharab rehti hai, aur zyada tar din interview ki tayyari pe focus nahi kar pata. Kabhi kabhi lagta hai ke mein ammi abbu ke liye disappointment hoon.
+Listener: Khul ke baat karne ka shukriya. Aisa saal kisi ko bhi thaka deta hai.
+
+### P23 en
+User: I failed the engineering entry test, and my father has not really spoken to me since.
+Listener: That sounds very painful. How have you been feeling?
+User: Nearly every day I feel hopeless, like my future is over. Nothing is fun anymore, nearly every day, not even PUBG with my friends.
+Listener: I am sorry. How do you see yourself right now?
+User: Nearly every day I feel like a complete failure who wasted my family's money. And nearly every day I have no energy at all.
+Listener: How about your body, restlessness, food, sleep?
+User: Nearly every day I cannot sit still, I keep pacing the roof at night. Most days I do not feel like eating. Some nights I sleep badly, and some days I cannot focus on anything.
+Listener: Thank you for telling me. One test does not decide who you are. Is there someone you can talk to about how heavy this feels?
+
+### P23 ur
+User: میں انجینئرنگ کا انٹری ٹیسٹ فیل ہو گیا، اور تب سے ابو نے مجھ سے ٹھیک سے بات نہیں کی۔
+Listener: یہ بہت تکلیف دہ ہے۔ آپ کیسا محسوس کر رہے ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے، جیسے میرا مستقبل ختم ہو گیا ہو۔ تقریباً ہر روز کسی چیز میں مزہ نہیں آتا، دوستوں کے ساتھ پب جی میں بھی نہیں۔
+Listener: افسوس ہے۔ ابھی آپ خود کو کیسے دیکھتے ہیں؟
+User: تقریباً ہر روز لگتا ہے کہ میں مکمل ناکام ہوں جس نے گھر والوں کا پیسہ ضائع کیا۔ اور تقریباً ہر روز بالکل توانائی نہیں ہوتی۔
+Listener: جسم کا کیا حال ہے، بے چینی، کھانا، نیند؟
+User: تقریباً ہر روز ٹک کر بیٹھ نہیں پاتا، رات کو چھت پر ٹہلتا رہتا ہوں۔ زیادہ تر دن کھانے کو دل نہیں کرتا۔ کچھ راتیں نیند خراب رہی، اور کچھ دن کسی چیز پر توجہ نہیں دے پاتا۔
+Listener: بتانے کا شکریہ۔ ایک ٹیسٹ یہ فیصلہ نہیں کرتا کہ آپ کون ہیں۔ کیا کوئی ہے جس سے آپ اس بوجھ کے بارے میں بات کر سکیں؟
+
+### P23 ru
+User: Mein engineering ka entry test fail ho gaya, aur tab se abbu ne mujh se theek se baat nahi ki.
+Listener: Yeh bohat takleef deh hai. Aap kaisa feel kar rahe hain?
+User: Taqreeban har roz na-umeedi hoti hai, jaise mera future khatam ho gaya ho. Taqreeban har roz kisi cheez mein maza nahi aata, doston ke sath PUBG mein bhi nahi.
+Listener: Afsos hai. Abhi aap khud ko kaise dekhte hain?
+User: Taqreeban har roz lagta hai ke mein complete failure hoon jis ne ghar walon ka paisa waste kiya. Aur taqreeban har roz bilkul energy nahi hoti.
+Listener: Jism ka kya haal hai, bechaini, khana, neend?
+User: Taqreeban har roz tik ke baith nahi pata, raat ko chhat pe tehalta rehta hoon. Zyada tar din khane ko dil nahi karta. Kuch raatein neend kharab rahi, aur kuch din kisi cheez pe focus nahi kar pata.
+Listener: Batane ka shukriya. Ek test yeh faisla nahi karta ke aap kaun hain. Kya koi hai jis se aap is bojh ke baare mein baat kar sakein?
+
+### P24 en
+User: I have diabetes and blood pressure now, and the medicine costs eat half my salary.
+Listener: That is a heavy combination. How have you been feeling?
+User: Nearly every day I feel hopeless, like things will only get worse. And nearly every day I have no appetite, my wife has to push me to eat.
+Listener: I am sorry. How is your focus at work?
+User: Nearly every day I cannot concentrate on the files, I make mistakes I never used to make. Most nights I sleep badly, and most days I feel slowed down, I walk and talk slowly.
+Listener: How do you feel about yourself?
+User: Most days I feel like I have let my family down by getting sick. Some days I feel tired, and some days I do not enjoy my evening walk with friends.
+Listener: Thank you for sharing. Have you been able to tell your doctor how you are feeling emotionally too?
+
+### P24 ur
+User: اب مجھے شوگر اور بلڈ پریشر ہے، اور دوائیوں کا خرچ آدھی تنخواہ کھا جاتا ہے۔
+Listener: یہ بہت بھاری صورتحال ہے۔ آپ کیسا محسوس کر رہے ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے، جیسے حالات اور خراب ہی ہوں گے۔ اور تقریباً ہر روز بھوک نہیں لگتی، بیوی زور دے کر کھانا کھلاتی ہے۔
+Listener: افسوس ہے۔ دفتر میں توجہ کیسی ہے؟
+User: تقریباً ہر روز فائلوں پر توجہ نہیں دے پاتا، ایسی غلطیاں ہو جاتی ہیں جو پہلے کبھی نہیں ہوتی تھیں۔ زیادہ تر راتیں نیند خراب رہتی ہے، اور زیادہ تر دن خود کو سست محسوس کرتا ہوں، آہستہ چلتا اور آہستہ بولتا ہوں۔
+Listener: آپ اپنے بارے میں کیسا محسوس کرتے ہیں؟
+User: زیادہ تر دن لگتا ہے کہ بیمار ہو کر میں نے اپنے گھر والوں کو مایوس کیا۔ کچھ دن تھکن ہوتی ہے، اور کچھ دن دوستوں کے ساتھ شام کی سیر میں مزہ نہیں آتا۔
+Listener: بتانے کا شکریہ۔ کیا آپ نے اپنے ڈاکٹر کو اپنی جذباتی حالت کے بارے میں بھی بتایا ہے؟
+
+### P24 ru
+User: Ab mujhe sugar aur blood pressure hai, aur dawaiyon ka kharcha aadhi salary kha jata hai.
+Listener: Yeh bohat heavy situation hai. Aap kaisa feel kar rahe hain?
+User: Taqreeban har roz na-umeedi hoti hai, jaise halaat aur kharab hi honge. Aur taqreeban har roz bhook nahi lagti, biwi zor de ke khana khilati hai.
+Listener: Afsos hai. Office mein focus kaisa hai?
+User: Taqreeban har roz files pe focus nahi kar pata, aisi ghaltiyan ho jati hain jo pehle kabhi nahi hoti thin. Zyada tar raatein neend kharab rehti hai, aur zyada tar din khud ko slow feel karta hoon, aahista chalta aur aahista bolta hoon.
+Listener: Aap apne baare mein kaisa feel karte hain?
+User: Zyada tar din lagta hai ke beemar ho ke mein ne apne ghar walon ko disappoint kiya. Kuch din thakan hoti hai, aur kuch din doston ke sath shaam ki walk mein maza nahi aata.
+Listener: Batane ka shukriya. Kya aap ne apne doctor ko apni emotional halat ke baare mein bhi bataya hai?

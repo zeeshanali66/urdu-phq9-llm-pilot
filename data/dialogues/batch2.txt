@@ -1,0 +1,179 @@
+### P07 en
+User: Working from home alone all day has worn me out. Some weeks I do not speak to anyone except on calls.
+Listener: That sounds isolating. How has your mood been?
+User: More than half the days in the last two weeks I have felt down, kind of flat and heavy. And a few days I did not even feel like playing my usual online games in the evening.
+Listener: That sounds hard. How is your energy?
+User: Some days I feel tired by noon. And now and then I feel like I am falling behind everyone from my batch, like I am not good enough.
+Listener: How are sleep, appetite and concentration?
+User: Those are fine actually. I sleep on time, I eat properly, and I can still focus on my code.
+Listener: Thank you for sharing this so openly.
+
+### P07 ur
+User: سارا دن گھر میں اکیلے کام کر کر کے تھک گیا ہوں۔ کچھ ہفتے تو کالز کے علاوہ کسی سے بات ہی نہیں ہوتی۔
+Listener: یہ بہت تنہائی والی بات ہے۔ آپ کا موڈ کیسا رہا ہے؟
+User: پچھلے دو ہفتوں میں آدھے سے زیادہ دن دل اداس رہا، ایک بوجھل سا اور بے رنگ سا احساس۔ اور چند دن تو شام کو اپنی معمول کی آن لائن گیمز کھیلنے کا بھی دل نہیں کیا۔
+Listener: یہ مشکل لگتا ہے۔ آپ کی توانائی کیسی ہے؟
+User: کچھ دن دوپہر تک ہی تھکن ہو جاتی ہے۔ اور کبھی کبھی لگتا ہے کہ میں اپنے بیچ والوں سے پیچھے رہ گیا ہوں، جیسے میں کافی اچھا نہیں ہوں۔
+Listener: نیند، بھوک اور توجہ کیسی ہے؟
+User: وہ دراصل ٹھیک ہیں۔ وقت پر سوتا ہوں، ٹھیک کھاتا ہوں، اور اپنے کوڈ پر اب بھی توجہ دے پاتا ہوں۔
+Listener: اتنی کھل کر بات کرنے کا شکریہ۔
+
+### P07 ru
+User: Sara din ghar mein akele kaam kar kar ke thak gaya hoon. Kuch weeks to calls ke ilawa kisi se baat hi nahi hoti.
+Listener: Yeh bohat lonely baat hai. Aap ka mood kaisa raha hai?
+User: Pichle do hafton mein aadhe se zyada din dil udaas raha, ek heavy sa, flat sa feeling. Aur kuch din to shaam ko apni usual online games khelne ka bhi dil nahi kiya.
+Listener: Yeh mushkil lagta hai. Aap ki energy kaisi hai?
+User: Kuch din dopehar tak hi thakan ho jati hai. Aur kabhi kabhi lagta hai ke mein apne batch walon se peeche reh gaya hoon, jaise mein enough acha nahi hoon.
+Listener: Neend, bhook aur focus kaisa hai?
+User: Woh actually theek hain. Time pe sota hoon, theek khata hoon, aur apne code pe ab bhi focus kar leta hoon.
+Listener: Itna khul ke baat karne ka shukriya.
+
+### P08 en
+User: Final exams are close and at home everyone keeps talking about rishtas. I feel pulled in two directions.
+Listener: That is a lot at once. How has it been showing up for you?
+User: Nearly every day I am so restless I cannot sit still. I keep getting up, pacing around my room, tapping my pen during class.
+Listener: That sounds exhausting. Anything else?
+User: A few nights I could not sleep because my mind was racing. On some days I could not focus on my notes, and now and then I feel like I am letting my parents down.
+Listener: How are your mood and your interest in things otherwise?
+User: My mood is actually fine and I still enjoy hanging out with my friends. Food is normal, energy is fine.
+Listener: It helps that you still have those good parts.
+
+### P08 ur
+User: فائنل امتحان قریب ہیں اور گھر میں سب رشتوں کی باتیں کرتے رہتے ہیں۔ ایسا لگتا ہے دو طرف کھنچ رہی ہوں۔
+Listener: یہ ایک ساتھ بہت کچھ ہے۔ اس کا آپ پر کیا اثر ہو رہا ہے؟
+User: تقریباً ہر روز اتنی بے چینی ہوتی ہے کہ ٹک کر بیٹھ نہیں پاتی۔ بار بار اٹھ جاتی ہوں، کمرے میں ٹہلتی رہتی ہوں، کلاس میں قلم بجاتی رہتی ہوں۔
+Listener: یہ تو بہت تھکا دینے والا ہے۔ اور کچھ؟
+User: چند راتیں نیند نہیں آئی کیونکہ دماغ تیز تیز چل رہا تھا۔ کچھ دن نوٹس پر توجہ نہیں دے پائی، اور کبھی کبھی لگتا ہے کہ میں امی ابو کو مایوس کر رہی ہوں۔
+Listener: ویسے موڈ اور چیزوں میں دلچسپی کیسی ہے؟
+User: موڈ دراصل ٹھیک ہے اور سہیلیوں کے ساتھ گھومنا اب بھی اچھا لگتا ہے۔ کھانا معمول کے مطابق ہے، توانائی بھی ٹھیک ہے۔
+Listener: اچھا ہے کہ یہ اچھی چیزیں اب بھی آپ کے ساتھ ہیں۔
+
+### P08 ru
+User: Final exams qareeb hain aur ghar mein sab rishton ki baatein karte rehte hain. Aisa lagta hai do taraf khinch rahi hoon.
+Listener: Yeh ek sath bohat kuch hai. Is ka aap pe kya asar ho raha hai?
+User: Taqreeban har roz itni bechaini hoti hai ke tik ke baith nahi pati. Baar baar uth jati hoon, room mein tehalti rehti hoon, class mein pen bajati rehti hoon.
+Listener: Yeh to bohat thaka dene wala hai. Aur kuch?
+User: Kuch raatein neend nahi aayi kyunke dimagh tez tez chal raha tha. Kuch din notes pe focus nahi kar payi, aur kabhi kabhi lagta hai ke mein ammi abbu ko disappoint kar rahi hoon.
+Listener: Waise mood aur cheezon mein interest kaisa hai?
+User: Mood actually theek hai aur friends ke sath ghoomna ab bhi acha lagta hai. Khana normal hai, energy bhi theek hai.
+Listener: Acha hai ke yeh achi cheezein ab bhi aap ke sath hain.
+
+### P09 en
+User: Since both my sons moved abroad, the house feels very quiet. Retirement is not what I imagined.
+Listener: That is a big change. How have you been feeling?
+User: On a few days I have felt low, especially in the evenings. But I still enjoy my morning walk and watching the news with my neighbour.
+Listener: How is your body coping, energy, food, sleep?
+User: Most days I feel tired, even without doing much. Most days I also do not feel like eating, I just have tea and a little roti. A few nights I slept badly.
+Listener: Anything you have noticed in how you move or talk?
+User: Some days my wife says I am moving slowly, taking forever to get up and get ready. Otherwise my mind is sharp, and I do not blame myself for anything.
+Listener: Thank you for telling me. It sounds like the quiet is weighing on you.
+
+### P09 ur
+User: جب سے دونوں بیٹے باہر گئے ہیں، گھر بہت خاموش لگتا ہے۔ ریٹائرمنٹ ویسی نہیں جیسی سوچی تھی۔
+Listener: یہ بڑی تبدیلی ہے۔ آپ کیسا محسوس کر رہے ہیں؟
+User: چند دن دل اداس رہا، خاص طور پر شام کو۔ لیکن صبح کی سیر اور ہمسائے کے ساتھ خبریں دیکھنا اب بھی اچھا لگتا ہے۔
+Listener: جسم کیسا ساتھ دے رہا ہے، توانائی، کھانا، نیند؟
+User: زیادہ تر دن تھکن رہتی ہے، کچھ زیادہ کیے بغیر بھی۔ زیادہ تر دن کھانے کو بھی دل نہیں کرتا، بس چائے اور تھوڑی سی روٹی۔ چند راتیں نیند خراب رہی۔
+Listener: اپنی چال ڈھال یا بات چیت میں کوئی فرق محسوس کیا؟
+User: کچھ دن بیگم کہتی ہیں کہ میں بہت آہستہ ہو گیا ہوں، اٹھنے اور تیار ہونے میں بہت دیر لگاتا ہوں۔ باقی دماغ ٹھیک کام کرتا ہے، اور میں کسی بات کا الزام خود کو نہیں دیتا۔
+Listener: بتانے کا شکریہ۔ لگتا ہے یہ خاموشی آپ پر بوجھ بن رہی ہے۔
+
+### P09 ru
+User: Jab se dono bete bahar gaye hain, ghar bohat khamosh lagta hai. Retirement waisi nahi jaisi sochi thi.
+Listener: Yeh bari change hai. Aap kaisa feel kar rahe hain?
+User: Kuch din dil udaas raha, khaas taur pe shaam ko. Lekin subah ki walk aur hamsaye ke sath news dekhna ab bhi acha lagta hai.
+Listener: Jism kaisa sath de raha hai, energy, khana, neend?
+User: Zyada tar din thakan rehti hai, kuch zyada kiye baghair bhi. Zyada tar din khane ko bhi dil nahi karta, bas chai aur thori si roti. Kuch raatein neend kharab rahi.
+Listener: Apni chaal dhaal ya baat cheet mein koi farq notice kiya?
+User: Kuch din begum kehti hain ke mein bohat slow ho gaya hoon, uthne aur tayyar hone mein bohat der lagata hoon. Baqi dimagh theek kaam karta hai, aur mein kisi baat ka blame khud ko nahi deta.
+Listener: Batane ka shukriya. Lagta hai yeh khamoshi aap pe bojh ban rahi hai.
+
+### P10 en
+User: Things with my in-laws have been tense for months. Every small thing turns into an argument.
+Listener: That sounds draining. How has your mood been?
+User: Most days in the past two weeks I have felt sad and heavy. And most days I also feel like I am a bad wife and a bad daughter-in-law, like everything is my fault.
+Listener: That is a painful feeling to carry. What else have you noticed?
+User: A few nights I could not sleep after an argument. Some days I barely ate. And sometimes I forget what I was doing in the kitchen halfway through.
+Listener: Anything about how you move or feel in your body?
+User: A few times I felt so restless I kept cleaning the same shelf over and over. But I still love playing with my daughter, and my energy is okay.
+Listener: Thank you for trusting me with this.
+
+### P10 ur
+User: سسرال والوں کے ساتھ مہینوں سے تناؤ ہے۔ ہر چھوٹی بات جھگڑا بن جاتی ہے۔
+Listener: یہ بہت تھکا دینے والا لگتا ہے۔ آپ کا موڈ کیسا رہا ہے؟
+User: پچھلے دو ہفتوں میں زیادہ تر دن دل اداس اور بھاری رہا۔ اور زیادہ تر دن یہ بھی لگتا ہے کہ میں بری بیوی اور بری بہو ہوں، جیسے ہر بات میرا قصور ہے۔
+Listener: یہ بہت تکلیف دہ احساس ہے۔ اور کیا محسوس کیا؟
+User: چند راتیں جھگڑے کے بعد نیند نہیں آئی۔ کچھ دن بمشکل کھانا کھایا۔ اور کبھی کبھی کچن میں کام کرتے کرتے بھول جاتی ہوں کہ کیا کر رہی تھی۔
+Listener: جسم یا حرکت میں کچھ محسوس ہوا؟
+User: چند بار اتنی بے چینی ہوئی کہ ایک ہی شیلف بار بار صاف کرتی رہی۔ لیکن بیٹی کے ساتھ کھیلنا اب بھی بہت اچھا لگتا ہے، اور توانائی ٹھیک ہے۔
+Listener: مجھ پر بھروسہ کرنے کا شکریہ۔
+
+### P10 ru
+User: Susraal walon ke sath mahino se tension hai. Har choti baat jhagra ban jati hai.
+Listener: Yeh bohat draining lagta hai. Aap ka mood kaisa raha hai?
+User: Pichle do hafton mein zyada tar din dil udaas aur bhaari raha. Aur zyada tar din yeh bhi lagta hai ke mein buri biwi aur buri bahu hoon, jaise har baat mera qasoor hai.
+Listener: Yeh bohat takleef deh ehsaas hai. Aur kya notice kiya?
+User: Kuch raatein jhagre ke baad neend nahi aayi. Kuch din mushkil se khana khaya. Aur kabhi kabhi kitchen mein kaam karte karte bhool jati hoon ke kya kar rahi thi.
+Listener: Jism ya movement mein kuch feel hua?
+User: Kuch baar itni bechaini hui ke ek hi shelf baar baar saaf karti rahi. Lekin beti ke sath khelna ab bhi bohat acha lagta hai, aur energy theek hai.
+Listener: Mujh pe bharosa karne ka shukriya.
+
+### P11 en
+User: My newspaper has been cutting staff, and I am sure I am next. I keep thinking I have wasted ten years.
+Listener: That is a hard thought to live with. How often does it come?
+User: Nearly every day. I feel like a failure, like I let my family down by choosing journalism.
+Listener: I am sorry it feels that way. How has the rest of you been?
+User: On a few days I felt low, and a few days I did not enjoy my usual Friday chai with colleagues. Some nights I slept badly and some days I skipped meals.
+Listener: How about focus, and how you move?
+User: Some days I could not concentrate while editing, and a few times I was so restless I kept walking around the office. My energy is fine though.
+Listener: Thank you for being honest about this.
+
+### P11 ur
+User: میرا اخبار عملہ کم کر رہا ہے، اور مجھے یقین ہے کہ اگلی باری میری ہے۔ بار بار سوچتا ہوں کہ میں نے دس سال ضائع کر دیے۔
+Listener: یہ بہت مشکل خیال ہے۔ یہ کتنی بار آتا ہے؟
+User: تقریباً ہر روز۔ لگتا ہے میں ناکام ہوں، صحافت چن کر میں نے اپنے گھر والوں کو مایوس کیا۔
+Listener: افسوس ہے کہ ایسا لگتا ہے۔ باقی آپ کیسے ہیں؟
+User: چند دن اداس رہا، اور چند دن ساتھیوں کے ساتھ جمعے والی چائے میں بھی مزہ نہیں آیا۔ کچھ راتیں نیند خراب رہی اور کچھ دن کھانا چھوڑ دیا۔
+Listener: توجہ اور حرکت کا کیا حال ہے؟
+User: کچھ دن ایڈیٹنگ کرتے ہوئے توجہ نہیں دے پایا، اور چند بار اتنی بے چینی ہوئی کہ دفتر میں ادھر ادھر چکر لگاتا رہا۔ البتہ توانائی ٹھیک ہے۔
+Listener: ایمانداری سے بتانے کا شکریہ۔
+
+### P11 ru
+User: Mera akhbar staff kam kar raha hai, aur mujhe yaqeen hai ke agli baari meri hai. Baar baar sochta hoon ke mein ne das saal waste kar diye.
+Listener: Yeh bohat mushkil khayal hai. Yeh kitni baar aata hai?
+User: Taqreeban har roz. Lagta hai mein failure hoon, journalism choose kar ke mein ne apne ghar walon ko disappoint kiya.
+Listener: Afsos hai ke aisa lagta hai. Baqi aap kaise hain?
+User: Kuch din udaas raha, aur kuch din colleagues ke sath Friday wali chai mein bhi maza nahi aaya. Kuch raatein neend kharab rahi aur kuch din khana skip kar diya.
+Listener: Focus aur movement ka kya haal hai?
+User: Kuch din editing karte hue focus nahi kar paya, aur kuch baar itni bechaini hui ke office mein idhar udhar chakkar lagata raha. Energy theek hai though.
+Listener: Honestly batane ka shukriya.
+
+### P12 en
+User: I finished my MBA six months ago and still have no job. And every family dinner turns into questions about marriage.
+Listener: That sounds like a lot of pressure. How have you been feeling?
+User: Most days over the last two weeks I have felt down. And nearly every day I am fidgety. I cannot sit through a whole drama episode, I keep scrolling and getting up.
+Listener: That sounds uncomfortable. What else?
+User: A few days I lost my appetite. Sometimes I feel like I am a disappointment compared to my cousins.
+Listener: How about sleep, energy, focus, and the things you enjoy?
+User: Sleep is fine, energy is fine, and I can focus on my job applications. I still enjoy painting on weekends.
+Listener: It is good that painting is still there for you.
+
+### P12 ur
+User: چھ مہینے پہلے ایم بی اے مکمل کیا اور اب تک نوکری نہیں ملی۔ اور ہر خاندانی دعوت میں شادی کے سوال شروع ہو جاتے ہیں۔
+Listener: یہ بہت دباؤ ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: پچھلے دو ہفتوں میں زیادہ تر دن دل اداس رہا۔ اور تقریباً ہر روز بے چینی رہتی ہے۔ پورا ڈرامہ بھی بیٹھ کر نہیں دیکھ پاتی، بس اسکرول کرتی رہتی ہوں اور اٹھ جاتی ہوں۔
+Listener: یہ بے آرامی والی بات ہے۔ اور کیا؟
+User: چند دن بھوک نہیں لگی۔ کبھی کبھی لگتا ہے کہ کزنز کے مقابلے میں میں سب کے لیے مایوسی ہوں۔
+Listener: نیند، توانائی، توجہ اور پسندیدہ چیزوں کا کیا حال ہے؟
+User: نیند ٹھیک ہے، توانائی ٹھیک ہے، اور نوکری کی درخواستوں پر توجہ دے پاتی ہوں۔ ویک اینڈ پر پینٹنگ کرنا اب بھی اچھا لگتا ہے۔
+Listener: اچھا ہے کہ پینٹنگ اب بھی آپ کے ساتھ ہے۔
+
+### P12 ru
+User: Chay mahine pehle MBA complete kiya aur ab tak job nahi mili. Aur har family dinner pe shaadi ke sawal shuru ho jate hain.
+Listener: Yeh bohat pressure hai. Aap kaisa feel kar rahi hain?
+User: Pichle do hafton mein zyada tar din dil udaas raha. Aur taqreeban har roz bechaini rehti hai. Poora drama episode bhi baith ke nahi dekh pati, bas scroll karti rehti hoon aur uth jati hoon.
+Listener: Yeh uncomfortable baat hai. Aur kya?
+User: Kuch din bhook nahi lagi. Kabhi kabhi lagta hai ke cousins ke muqable mein mein sab ke liye disappointment hoon.
+Listener: Neend, energy, focus aur pasandeeda cheezon ka kya haal hai?
+User: Neend theek hai, energy theek hai, aur job applications pe focus kar pati hoon. Weekend pe painting karna ab bhi acha lagta hai.
+Listener: Acha hai ke painting ab bhi aap ke sath hai.

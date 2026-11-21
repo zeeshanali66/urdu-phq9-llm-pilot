@@ -1,0 +1,179 @@
+### P25 en
+User: My mother has been bedridden for a year and I look after her alone, before and after teaching all day.
+Listener: That is a huge responsibility. How have you been feeling?
+User: Nearly every day I feel hopeless, like this will never end. Nearly every night I hardly sleep because she calls for me.
+Listener: I am so sorry. How do you see yourself?
+User: Nearly every day I feel I am failing her and failing my students. And nearly every day I cannot concentrate, I lose my place in the lesson. Most days I do not enjoy anything, even my sister's calls.
+Listener: How is your body handling it, food, energy, how you move?
+User: Most days I forget to eat. Nearly every day I feel slowed down, I drag myself from room to room and speak slowly. Some days I am tired, but I keep going.
+Listener: Thank you for telling me. You deserve support too. Have you been able to see a doctor for yourself?
+
+### P25 ur
+User: میری امی ایک سال سے بستر پر ہیں اور میں اکیلی ان کی دیکھ بھال کرتی ہوں، سارا دن پڑھانے سے پہلے اور بعد میں۔
+Listener: یہ بہت بڑی ذمہ داری ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے، جیسے یہ کبھی ختم نہیں ہوگا۔ تقریباً ہر رات بمشکل سوتی ہوں کیونکہ وہ مجھے آواز دیتی رہتی ہیں۔
+Listener: بہت افسوس ہے۔ آپ خود کو کیسے دیکھتی ہیں؟
+User: تقریباً ہر روز لگتا ہے کہ میں ان کے ساتھ بھی ناکام ہوں اور اپنے طلبہ کے ساتھ بھی۔ اور تقریباً ہر روز توجہ نہیں دے پاتی، سبق کے بیچ میں بھول جاتی ہوں کہ کہاں تھی۔ زیادہ تر دن کسی چیز میں مزہ نہیں آتا، بہن کے فون میں بھی نہیں۔
+Listener: جسم کیسے سہہ رہا ہے، کھانا، توانائی، چال ڈھال؟
+User: زیادہ تر دن کھانا بھول جاتی ہوں۔ تقریباً ہر روز خود کو سست محسوس کرتی ہوں، ایک کمرے سے دوسرے کمرے تک خود کو گھسیٹتی ہوں اور آہستہ بولتی ہوں۔ کچھ دن تھکن ہوتی ہے، لیکن چلتی رہتی ہوں۔
+Listener: بتانے کا شکریہ۔ آپ بھی سہارے کی حقدار ہیں۔ کیا آپ اپنے لیے کسی ڈاکٹر کو دکھا پائی ہیں؟
+
+### P25 ru
+User: Meri ammi ek saal se bistar pe hain aur mein akeli un ki dekh bhaal karti hoon, sara din parhane se pehle aur baad mein.
+Listener: Yeh bohat bari zimmedari hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz na-umeedi hoti hai, jaise yeh kabhi khatam nahi hoga. Taqreeban har raat mushkil se soti hoon kyunke woh mujhe awaaz deti rehti hain.
+Listener: Bohat afsos hai. Aap khud ko kaise dekhti hain?
+User: Taqreeban har roz lagta hai ke mein un ke sath bhi fail hoon aur apne students ke sath bhi. Aur taqreeban har roz focus nahi kar pati, lesson ke beech mein bhool jati hoon ke kahan thi. Zyada tar din kisi cheez mein maza nahi aata, behen ki call mein bhi nahi.
+Listener: Jism kaise seh raha hai, khana, energy, chaal dhaal?
+User: Zyada tar din khana bhool jati hoon. Taqreeban har roz khud ko slow feel karti hoon, ek room se doosre room tak khud ko ghaseet ti hoon aur aahista bolti hoon. Kuch din thakan hoti hai, lekin chalti rehti hoon.
+Listener: Batane ka shukriya. Aap bhi support ki haqdaar hain. Kya aap apne liye kisi doctor ko dikha payi hain?
+
+### P26 en
+User: I took a big loan for my sister's wedding and now I work till ten every night at the bank to pay it off.
+Listener: That is a lot of pressure. How are you feeling?
+User: Nearly every day I feel hopeless and nothing interests me anymore, nearly every day. I used to love going to the beach with friends. Now I do not care.
+Listener: That sounds very hard. How are sleep and energy?
+User: Nearly every night I cannot sleep, and nearly every day I am exhausted. Nearly every day I also feel like a failure, like a real man would have managed money better.
+Listener: How about eating, focus and restlessness?
+User: Most days I skip meals. Most days I cannot focus on the spreadsheets, and most days I am restless and cannot sit still at my desk.
+Listener: Thank you for being so honest. Is there someone, a friend or a doctor, you could talk to about this?
+
+### P26 ur
+User: بہن کی شادی کے لیے بڑا قرض لیا تھا، اور اب اسے اتارنے کے لیے ہر رات دس بجے تک بینک میں کام کرتا ہوں۔
+Listener: یہ بہت دباؤ ہے۔ آپ کیسا محسوس کر رہے ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے اور تقریباً ہر روز کسی چیز میں دلچسپی نہیں رہی۔ پہلے دوستوں کے ساتھ ساحل پر جانا بہت پسند تھا۔ اب کوئی پروا نہیں۔
+Listener: یہ بہت مشکل لگتا ہے۔ نیند اور توانائی کیسی ہے؟
+User: تقریباً ہر رات نیند نہیں آتی، اور تقریباً ہر روز تھکن سے چور رہتا ہوں۔ تقریباً ہر روز یہ بھی لگتا ہے کہ میں ناکام ہوں، کوئی اصلی مرد ہوتا تو پیسے بہتر سنبھالتا۔
+Listener: کھانا، توجہ اور بے چینی کا کیا حال ہے؟
+User: زیادہ تر دن کھانا چھوڑ دیتا ہوں۔ زیادہ تر دن اسپریڈشیٹس پر توجہ نہیں دے پاتا، اور زیادہ تر دن بے چینی رہتی ہے، میز پر ٹک کر بیٹھ نہیں پاتا۔
+Listener: اتنی ایمانداری کا شکریہ۔ کیا کوئی دوست یا ڈاکٹر ہے جس سے آپ اس بارے میں بات کر سکیں؟
+
+### P26 ru
+User: Behen ki shaadi ke liye bara loan liya tha, aur ab usay utarne ke liye har raat das baje tak bank mein kaam karta hoon.
+Listener: Yeh bohat pressure hai. Aap kaisa feel kar rahe hain?
+User: Taqreeban har roz na-umeedi hoti hai aur taqreeban har roz kisi cheez mein interest nahi raha. Pehle doston ke sath beach pe jana bohat pasand tha. Ab koi parwah nahi.
+Listener: Yeh bohat mushkil lagta hai. Neend aur energy kaisi hai?
+User: Taqreeban har raat neend nahi aati, aur taqreeban har roz thakan se choor rehta hoon. Taqreeban har roz yeh bhi lagta hai ke mein failure hoon, koi asli mard hota to paise behtar sambhalta.
+Listener: Khana, focus aur bechaini ka kya haal hai?
+User: Zyada tar din khana skip kar deta hoon. Zyada tar din spreadsheets pe focus nahi kar pata, aur zyada tar din bechaini rehti hai, desk pe tik ke baith nahi pata.
+Listener: Itni honesty ka shukriya. Kya koi dost ya doctor hai jis se aap is baare mein baat kar sakein?
+
+### P27 en
+User: My husband has worked in Saudi for six years. I raise four children alone and stitch clothes till midnight.
+Listener: That is so much to carry alone. How are you feeling?
+User: Nearly every day I feel hopeless, and nearly every day nothing gives me joy, not even Eid. Nearly every night I cannot sleep.
+Listener: I am so sorry. How do you see yourself?
+User: Nearly every day I feel like a bad mother who has no time for her children. And nearly every day I cannot concentrate, I keep making mistakes in the measurements.
+Listener: How are energy, food and the way you move?
+User: Most days I am exhausted, and most days I do not feel like eating. Nearly every day I feel slowed down, everything takes double the time, even threading a needle.
+Listener: Thank you for trusting me with this. Is there anyone in the family, or a lady health worker, you could talk to?
+
+### P27 ur
+User: میرے شوہر چھ سال سے سعودیہ میں کام کرتے ہیں۔ میں چار بچوں کو اکیلی پال رہی ہوں اور آدھی رات تک کپڑے سیتی ہوں۔
+Listener: اکیلے یہ سب اٹھانا بہت زیادہ ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے، اور تقریباً ہر روز کسی چیز سے خوشی نہیں ملتی، عید پر بھی نہیں۔ تقریباً ہر رات نیند نہیں آتی۔
+Listener: بہت افسوس ہے۔ آپ خود کو کیسے دیکھتی ہیں؟
+User: تقریباً ہر روز لگتا ہے کہ میں بری ماں ہوں جس کے پاس بچوں کے لیے وقت ہی نہیں۔ اور تقریباً ہر روز توجہ نہیں دے پاتی، ناپ میں بار بار غلطیاں ہو جاتی ہیں۔
+Listener: توانائی، کھانا اور چال ڈھال کیسی ہے؟
+User: زیادہ تر دن تھکن سے چور رہتی ہوں، اور زیادہ تر دن کھانے کو دل نہیں کرتا۔ تقریباً ہر روز خود کو سست محسوس کرتی ہوں، ہر کام میں دگنا وقت لگتا ہے، سوئی میں دھاگا ڈالنے میں بھی۔
+Listener: مجھ پر بھروسہ کرنے کا شکریہ۔ کیا خاندان میں کوئی ہے، یا لیڈی ہیلتھ ورکر، جس سے آپ بات کر سکیں؟
+
+### P27 ru
+User: Mere shohar chay saal se Saudia mein kaam karte hain. Mein chaar bachon ko akeli paal rahi hoon aur aadhi raat tak kapre seeti hoon.
+Listener: Akele yeh sab uthana bohat zyada hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz na-umeedi hoti hai, aur taqreeban har roz kisi cheez se khushi nahi milti, Eid pe bhi nahi. Taqreeban har raat neend nahi aati.
+Listener: Bohat afsos hai. Aap khud ko kaise dekhti hain?
+User: Taqreeban har roz lagta hai ke mein buri maa hoon jis ke paas bachon ke liye time hi nahi. Aur taqreeban har roz focus nahi kar pati, naap mein baar baar ghaltiyan ho jati hain.
+Listener: Energy, khana aur chaal dhaal kaisi hai?
+User: Zyada tar din thakan se choor rehti hoon, aur zyada tar din khane ko dil nahi karta. Taqreeban har roz khud ko slow feel karti hoon, har kaam mein double time lagta hai, sui mein dhaaga daalne mein bhi.
+Listener: Mujh pe bharosa karne ka shukriya. Kya family mein koi hai, ya lady health worker, jis se aap baat kar sakein?
+
+### P28 en
+User: Since my divorce, people in my neighbourhood whisper about me. Even at the bank, customers recognise me.
+Listener: That sounds painful and isolating. How have you been feeling?
+User: Nearly every day I feel hopeless and nothing interests me, nearly every day. I stopped going to my cousin's house completely.
+Listener: I am sorry. How are your sleep, energy and appetite?
+User: Nearly every night I cannot sleep, nearly every day I have no energy, and nearly every day I cannot eat, I have lost a lot of weight.
+Listener: That is a lot for your body. How about focus and restlessness?
+User: Nearly every day I miscount cash because I cannot concentrate, and nearly every day I am so restless I cannot stay still. Most days I also think maybe I deserved this, that I failed as a wife.
+Listener: Thank you for telling me. What happened does not make you less worthy. Have you been able to reach out to a doctor or counsellor?
+
+### P28 ur
+User: طلاق کے بعد سے محلے کے لوگ میرے بارے میں سرگوشیاں کرتے ہیں۔ بینک میں بھی گاہک مجھے پہچان لیتے ہیں۔
+Listener: یہ تکلیف دہ اور تنہا کر دینے والا ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے اور تقریباً ہر روز کسی چیز میں دلچسپی نہیں رہتی۔ کزن کے گھر جانا بالکل چھوڑ دیا ہے۔
+Listener: افسوس ہے۔ نیند، توانائی اور بھوک کیسی ہے؟
+User: تقریباً ہر رات نیند نہیں آتی، تقریباً ہر روز توانائی نہیں ہوتی، اور تقریباً ہر روز کھایا نہیں جاتا، میرا وزن بہت کم ہو گیا ہے۔
+Listener: یہ جسم کے لیے بہت ہے۔ توجہ اور بے چینی کا کیا حال ہے؟
+User: تقریباً ہر روز کیش گنتے ہوئے غلطی ہو جاتی ہے کیونکہ توجہ نہیں رہتی، اور تقریباً ہر روز اتنی بے چینی ہوتی ہے کہ ٹک نہیں پاتی۔ زیادہ تر دن یہ بھی سوچتی ہوں کہ شاید میں اسی کی حقدار تھی، کہ میں بیوی کے طور پر ناکام رہی۔
+Listener: بتانے کا شکریہ۔ جو ہوا اس سے آپ کی قدر کم نہیں ہوتی۔ کیا آپ کسی ڈاکٹر یا کونسلر سے رابطہ کر پائی ہیں؟
+
+### P28 ru
+User: Talaq ke baad se mohalle ke log mere baare mein sargoshiyan karte hain. Bank mein bhi customers mujhe pehchan lete hain.
+Listener: Yeh takleef deh aur akela kar dene wala hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz na-umeedi hoti hai aur taqreeban har roz kisi cheez mein interest nahi rehta. Cousin ke ghar jana bilkul chor diya hai.
+Listener: Afsos hai. Neend, energy aur bhook kaisi hai?
+User: Taqreeban har raat neend nahi aati, taqreeban har roz energy nahi hoti, aur taqreeban har roz khaya nahi jata, mera weight bohat kam ho gaya hai.
+Listener: Yeh jism ke liye bohat hai. Focus aur bechaini ka kya haal hai?
+User: Taqreeban har roz cash ginte hue ghalti ho jati hai kyunke focus nahi rehta, aur taqreeban har roz itni bechaini hoti hai ke tik nahi pati. Zyada tar din yeh bhi sochti hoon ke shayad mein isi ki haqdaar thi, ke mein biwi ke taur pe fail rahi.
+Listener: Batane ka shukriya. Jo hua us se aap ki value kam nahi hoti. Kya aap kisi doctor ya counsellor se rabta kar payi hain?
+
+### P29 en
+User: I moved to Islamabad for a nursing job and I work back-to-back night shifts. My family is six hours away.
+Listener: That is a lot of change and strain. How have you been feeling?
+User: Nearly every day I feel hopeless, and nearly every day nothing interests me, not even calls with my family. Nearly every day I also feel like a useless nurse and a useless daughter.
+Listener: I am so sorry. How are sleep and energy?
+User: Nearly every day I cannot sleep even when I finally get time off, and nearly every day I am completely drained. Nearly every day I barely eat.
+Listener: How about concentration and how you move?
+User: Nearly every day I cannot concentrate, and I have to check medication doses three times, which scares me. Nearly every day I feel slowed down, like I am moving through water.
+Listener: Thank you for telling me. This sounds serious, and you deserve care too. Could you speak to the staff doctor or someone you trust this week?
+
+### P29 ur
+User: نرسنگ کی نوکری کے لیے اسلام آباد آئی ہوں اور مسلسل رات کی شفٹیں کرتی ہوں۔ گھر والے چھ گھنٹے دور ہیں۔
+Listener: یہ بہت بڑی تبدیلی اور دباؤ ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز ناامیدی ہوتی ہے، اور تقریباً ہر روز کسی چیز میں دلچسپی نہیں رہتی، گھر والوں کی کالز میں بھی نہیں۔ تقریباً ہر روز یہ بھی لگتا ہے کہ میں بے کار نرس اور بے کار بیٹی ہوں۔
+Listener: بہت افسوس ہے۔ نیند اور توانائی کیسی ہے؟
+User: تقریباً ہر روز چھٹی ملنے پر بھی نیند نہیں آتی، اور تقریباً ہر روز بالکل نڈھال رہتی ہوں۔ تقریباً ہر روز بمشکل کھاتی ہوں۔
+Listener: توجہ اور چال ڈھال کیسی ہے؟
+User: تقریباً ہر روز توجہ نہیں دے پاتی، دوائی کی خوراک تین تین بار چیک کرنی پڑتی ہے، جس سے ڈر لگتا ہے۔ تقریباً ہر روز خود کو سست محسوس کرتی ہوں، جیسے پانی میں چل رہی ہوں۔
+Listener: بتانے کا شکریہ۔ یہ سنجیدہ بات ہے، اور آپ بھی دیکھ بھال کی حقدار ہیں۔ کیا اس ہفتے آپ اسٹاف ڈاکٹر یا کسی بھروسے والے شخص سے بات کر سکتی ہیں؟
+
+### P29 ru
+User: Nursing ki job ke liye Islamabad aayi hoon aur back to back night shifts karti hoon. Ghar wale chay ghante door hain.
+Listener: Yeh bohat bari change aur pressure hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz na-umeedi hoti hai, aur taqreeban har roz kisi cheez mein interest nahi rehta, ghar walon ki calls mein bhi nahi. Taqreeban har roz yeh bhi lagta hai ke mein bekaar nurse aur bekaar beti hoon.
+Listener: Bohat afsos hai. Neend aur energy kaisi hai?
+User: Taqreeban har roz chutti milne pe bhi neend nahi aati, aur taqreeban har roz bilkul nidhaal rehti hoon. Taqreeban har roz mushkil se khati hoon.
+Listener: Focus aur chaal dhaal kaisi hai?
+User: Taqreeban har roz focus nahi kar pati, medicine ki dose teen teen baar check karni parti hai, jis se dar lagta hai. Taqreeban har roz khud ko slow feel karti hoon, jaise paani mein chal rahi hoon.
+Listener: Batane ka shukriya. Yeh serious baat hai, aur aap bhi care ki haqdaar hain. Kya is hafte aap staff doctor ya kisi bharose wale insaan se baat kar sakti hain?
+
+### P30 en
+User: My father died four months ago. I am a doctor and I could not save him. I keep going back to the hospital as if nothing happened.
+Listener: I am so sorry for your loss. How have you been feeling?
+User: Nearly every day nothing interests me, and nearly every night I cannot sleep. Nearly every day I have no energy and no appetite at all.
+Listener: That is a great deal of grief. How is your mood?
+User: Most days I feel down and heavy. Now and then I blame myself, but mostly I just feel empty.
+Listener: How are your focus and the way you move?
+User: Nearly every day I cannot concentrate on patient notes. And nearly every day I feel slowed down. My colleagues say I speak so slowly now, and I sit in the car for a long time before going inside.
+Listener: Thank you for sharing this. Grief like this deserves care. Have you been able to talk to a colleague or a professional about how you are?
+
+### P30 ur
+User: میرے ابو چار مہینے پہلے فوت ہو گئے۔ میں ڈاکٹر ہوں اور انہیں نہیں بچا سکی۔ ہسپتال ایسے جاتی رہتی ہوں جیسے کچھ ہوا ہی نہیں۔
+Listener: آپ کے نقصان کا بہت افسوس ہے۔ آپ کیسا محسوس کر رہی ہیں؟
+User: تقریباً ہر روز کسی چیز میں دلچسپی نہیں رہتی، اور تقریباً ہر رات نیند نہیں آتی۔ تقریباً ہر روز نہ توانائی ہوتی ہے نہ بالکل بھوک لگتی ہے۔
+Listener: یہ بہت گہرا غم ہے۔ آپ کا موڈ کیسا ہے؟
+User: زیادہ تر دن دل اداس اور بھاری رہتا ہے۔ کبھی کبھی خود کو الزام دیتی ہوں، لیکن زیادہ تر بس خالی پن محسوس ہوتا ہے۔
+Listener: توجہ اور چال ڈھال کیسی ہے؟
+User: تقریباً ہر روز مریضوں کے نوٹس پر توجہ نہیں دے پاتی۔ اور تقریباً ہر روز خود کو سست محسوس کرتی ہوں۔ ساتھی کہتے ہیں کہ اب میں بہت آہستہ بولتی ہوں، اور اندر جانے سے پہلے دیر تک گاڑی میں بیٹھی رہتی ہوں۔
+Listener: یہ سب بتانے کا شکریہ۔ ایسے غم کو بھی دیکھ بھال کی ضرورت ہوتی ہے۔ کیا آپ کسی ساتھی یا ماہر سے اپنی حالت کے بارے میں بات کر پائی ہیں؟
+
+### P30 ru
+User: Mere abbu chaar mahine pehle faut ho gaye. Mein doctor hoon aur unhein nahi bacha saki. Hospital aise jati rehti hoon jaise kuch hua hi nahi.
+Listener: Aap ke nuqsaan ka bohat afsos hai. Aap kaisa feel kar rahi hain?
+User: Taqreeban har roz kisi cheez mein interest nahi rehta, aur taqreeban har raat neend nahi aati. Taqreeban har roz na energy hoti hai na bilkul bhook lagti hai.
+Listener: Yeh bohat gehra gham hai. Aap ka mood kaisa hai?
+User: Zyada tar din dil udaas aur bhaari rehta hai. Kabhi kabhi khud ko blame karti hoon, lekin zyada tar bas khaali pan feel hota hai.
+Listener: Focus aur chaal dhaal kaisi hai?
+User: Taqreeban har roz patients ke notes pe focus nahi kar pati. Aur taqreeban har roz khud ko slow feel karti hoon. Colleagues kehte hain ke ab mein bohat aahista bolti hoon, aur andar jane se pehle der tak gaari mein baithi rehti hoon.
+Listener: Yeh sab batane ka shukriya. Aise gham ko bhi care ki zaroorat hoti hai. Kya aap kisi colleague ya professional se apni halat ke baare mein baat kar payi hain?
