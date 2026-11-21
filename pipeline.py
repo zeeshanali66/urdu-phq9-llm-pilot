@@ -140,7 +140,15 @@ def parse(s):
         return None
 
 
+def keep_awake():
+    """Stop Windows from sleeping while the run is active (released automatically when the process exits)."""
+    if os.name == "nt":
+        import ctypes
+        ctypes.windll.kernel32.SetThreadExecutionState(0x80000000 | 0x00000001)  # ES_CONTINUOUS | ES_SYSTEM_REQUIRED
+
+
 def judge():
+    keep_awake()
     D = dialogues()
     rpath = os.path.join(DATA, "ratings.jsonl")
     tpath = os.path.join(DATA, "translations.jsonl")

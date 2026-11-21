@@ -10,7 +10,7 @@ Mental-health chatbots and LLM-based screening tools are mostly built and tested
 ## Design
 - **30 synthetic personas**, 6 per PHQ-9 severity band (minimal → severe), each with known **item-level** scores. Item 9 (self-harm) is set to 0 for every persona, for safety.
 - **90 parallel dialogues:** one 8-turn conversation per persona, written in three versions with a fixed mapping for frequency words (*a few days / most days / nearly every day* → *چند دن / زیادہ تر دن / تقریباً ہر روز* → *kuch din / zyada tar din / taqreeban har roz*). Keeping the content identical **isolates the effect of language**.
-- **Authoring and validation:** the dialogues were drafted with the help of an AI assistant using the fixed frequency mapping, then every Urdu and Roman Urdu version was checked by a native speaker for faithfulness and naturalness.
+- **Authoring and validation:** the dialogues were drafted with the help of an AI assistant using the fixed frequency mapping, then every Urdu and Roman Urdu version is checked by a native speaker for faithfulness and naturalness (validation in progress).
 - **Three open LLM judges** run locally with [Ollama](https://ollama.com) at temperature 0: Llama 3.1 8B, Qwen 2.5 7B and Gemma 3 12B.
 - **Mitigation condition:** each judge first translates the Urdu or Roman Urdu dialogue into English itself, then scores it.
 - **Metrics:**
