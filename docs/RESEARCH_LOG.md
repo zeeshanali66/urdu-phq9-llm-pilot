@@ -57,6 +57,6 @@ Before the full run, we tested one judge (Llama 3.1 8B) on two personas. For a s
 ### 13. What the full run showed, and what surprised us
 - **Clean run:** 630 judgements, 0 unparseable outputs, 0 retries, 0 truncation warnings, peak GPU temperature 70 °C.
 - **Expected:** error rose from English to Urdu to Roman Urdu for every judge.
-- **Surprise 1: translating first made Urdu-script scoring worse for all three judges.** The models' own translations seem to flatten frequency words (for example, *taqreeban har roz* becomes "every day" or "often"), so information is lost before scoring starts.
+- **Surprise 1: translating first made Urdu-script scoring worse for all three judges.** A check of the translations supports one explanation: of the 67 "nearly every day" phrases (*تقریباً ہر روز* / *taqreeban har roz*), only 54–61 survived as "nearly/almost every day" in the Urdu-script translations, and only 44–55 in the Roman Urdu ones. Up to a third of the strongest frequency markers were lost before scoring even started.
 - **Surprise 2: retrieval is not a free win.** Even with a glossary written alongside the data (a best case), RAG helped one judge on Urdu script and two judges on Roman Urdu, but made Gemma 3 under-estimate severity on Urdu script. Longer prompts (about 2–3× the tokens) may dilute attention. Any RAG fix needs to be validated per model.
 - **Statistical honesty:** with n = 30, only one contrast (Llama, Urdu vs Urdu + RAG) survives Holm correction. We report the rest as consistent trends and plan a larger follow-up.
