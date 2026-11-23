@@ -29,6 +29,7 @@ Mental-health chatbots and LLM-based screening tools are mostly built and tested
 - **Translate-then-score did not help.** For Urdu script it increased error for all three judges; for Roman Urdu the effect was mixed (better for 2 judges, worse for 1).
 - **Glossary RAG cuts both ways.** It reduced Llama's Urdu-script error from 2.50 to 1.60 (the only contrast significant after Holm correction, p = 0.041), but increased Gemma's Urdu-script error from 1.23 to 2.33 and pushed it toward *under*-estimation (bias −2.0).
 - **Urdu script is expensive.** The same conversation used about **1.86×** more prompt tokens in Urdu script for Llama and Qwen, but only **1.09×** for Gemma.
+- **Tokenizer cost (9 tokenizers, CPU-only analysis):** Roman Urdu costs about 1.3–1.7× English everywhere. Urdu script ranges from 0.92× Roman Urdu (Gemma 3, GPT-4o) to 2.4× (GPT-4). See [`results/tokenizer_cost.md`](results/tokenizer_cost.md). This complements concurrent work on Indic tokenizer cost (arXiv 2611.13058), which used formal text and did not cover Llama 3 or Gemma 3.
 - **Screening sensitivity:** Qwen 2.5 7B under-estimated severity in every condition, and its sensitivity at PHQ-9 ≥ 10 fell from 0.83 (English) to 0.78 (Urdu and Roman Urdu).
 
 Full tables: [`results/RESULTS.md`](results/RESULTS.md). Figures: `results/fig1_mae.png`, `results/fig2_sensitivity.png`.
