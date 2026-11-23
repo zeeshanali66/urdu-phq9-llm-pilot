@@ -2,7 +2,6 @@
 
 A controlled pilot study of how open large language models score the **PHQ-9** depression questionnaire when the same person describes the same symptoms in **English**, **Urdu script**, or **Roman Urdu** (Urdu typed in Latin letters, mixed with English, which is how most Pakistanis write online).
 
-> **Status:** experiment in progress. Results will be added here.
 
 ## Why
 Mental-health chatbots and LLM-based screening tools are mostly built and tested in English. Urdu is Pakistan's national language, and online it is very often typed as Roman Urdu. If a model misses symptoms because of the language they're written in, people who need help could be under-screened. I first ran into this question while building PHQ-9 screening into a mental-health assistant for my undergraduate thesis.
@@ -22,6 +21,17 @@ Mental-health chatbots and LLM-based screening tools are mostly built and tested
   - sensitivity and specificity at the clinical cut-off PHQ-9 ≥ 10
   - paired permutation tests across languages
   - item-level bias (which symptoms are lost)
+
+## Key results (pilot, n = 30 personas × 3 judges)
+- **Error grows outside English.** Averaged over the three judges, mean absolute error rose from **1.73** PHQ-9 points in English to **2.44** in Urdu script (+41%) and **2.56** in Roman Urdu (+48%). The direction was the same for every judge. With n = 30, the individual contrasts don't survive Holm correction, so this is a consistent trend rather than a confirmed effect.
+- **Severity gets softened.** Example: a persona with true PHQ-9 = 21 (severe) was scored 21 in English but 16 in Roman Urdu by Llama 3.1 8B, which reads "nearly every day" (*taqreeban har roz*) as "most days".
+- **Psychomotor symptoms are lost most.** Under-detection of restlessness or slowing roughly doubled (item bias −0.32 in English vs −0.69 in Urdu and −0.64 in Roman Urdu).
+- **Translate-then-score did not help.** For Urdu script it increased error for all three judges; for Roman Urdu the effect was mixed (better for 2 judges, worse for 1).
+- **Glossary RAG cuts both ways.** It reduced Llama's Urdu-script error from 2.50 to 1.60 (the only contrast significant after Holm correction, p = 0.041), but increased Gemma's Urdu-script error from 1.23 to 2.33 and pushed it toward *under*-estimation (bias −2.0).
+- **Urdu script is expensive.** The same conversation used about **1.86×** more prompt tokens in Urdu script for Llama and Qwen, but only **1.09×** for Gemma.
+- **Screening sensitivity:** Qwen 2.5 7B under-estimated severity in every condition, and its sensitivity at PHQ-9 ≥ 10 fell from 0.83 (English) to 0.78 (Urdu and Roman Urdu).
+
+Full tables: [`results/RESULTS.md`](results/RESULTS.md). Figures: `results/fig1_mae.png`, `results/fig2_sensitivity.png`.
 
 ## Research log
 The problems we ran into and how each was addressed (confounded translations, ambiguous ground truth, silent context truncation for Urdu script, safety, multiple comparisons, and more) are documented in [`docs/RESEARCH_LOG.md`](docs/RESEARCH_LOG.md).

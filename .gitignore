@@ -9,3 +9,7 @@ results/temps.log
 data/validation_TODO.csv
 __pycache__/
 data/glossary_emb.json
+results/run.log
+results/judge.log
+results/judge.err
+results/results.log

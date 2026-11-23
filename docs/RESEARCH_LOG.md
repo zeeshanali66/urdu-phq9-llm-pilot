@@ -53,3 +53,10 @@ This log records the methodological decisions behind the study, in the order the
 
 ### 12. Early signal from the smoke test
 Before the full run, we tested one judge (Llama 3.1 8B) on two personas. For a severe case (true PHQ-9 = 21), the English and Urdu-script scores were 21 and 23, but **Roman Urdu was 16**. That is a drop of 5 points, which moves the person out of the "severe" band. This is a single example, not a result, but it motivated the full design.
+
+### 13. What the full run showed, and what surprised us
+- **Clean run:** 630 judgements, 0 unparseable outputs, 0 retries, 0 truncation warnings, peak GPU temperature 70 °C.
+- **Expected:** error rose from English to Urdu to Roman Urdu for every judge.
+- **Surprise 1: translating first made Urdu-script scoring worse for all three judges.** The models' own translations seem to flatten frequency words (for example, *taqreeban har roz* becomes "every day" or "often"), so information is lost before scoring starts.
+- **Surprise 2: retrieval is not a free win.** Even with a glossary written alongside the data (a best case), RAG helped one judge on Urdu script and two judges on Roman Urdu, but made Gemma 3 under-estimate severity on Urdu script. Longer prompts (about 2–3× the tokens) may dilute attention. Any RAG fix needs to be validated per model.
+- **Statistical honesty:** with n = 30, only one contrast (Llama, Urdu vs Urdu + RAG) survives Holm correction. We report the rest as consistent trends and plan a larger follow-up.
