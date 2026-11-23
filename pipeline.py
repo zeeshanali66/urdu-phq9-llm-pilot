@@ -321,6 +321,7 @@ def results():
     Tt = pd.DataFrame(tests)
     # Holm-Bonferroni correction across all paired tests
     order_idx = Tt["p_perm"].sort_values().index
+    Tt["p_holm"] = 1.0
     m, running = len(Tt), 0.0
     for rank, i in enumerate(order_idx):
         running = max(running, min(1.0, (m - rank) * Tt.at[i, "p_perm"]))
@@ -363,7 +364,12 @@ def results():
     order = CONDITIONS
     labels = ["English", "Urdu script", "Roman Urdu", "Urdu→EN (self-translated)", "Roman Urdu→EN", "Urdu + glossary RAG", "Roman Urdu + glossary RAG"]
     M = T.pivot(index="judge", columns="condition", values="MAE")[order]
-    ax = M.plot(kind="bar", figsize=(11, 4.5), width=0.85)
+    ci = T.assign(lo=T["MAE_95CI"].str.split("-").str[0].astype(float),
+                  hi=T["MAE_95CI"].str.split("-").str[1].astype(float))
+    lo = (M - ci.pivot(index="judge", columns="condition", values="lo")[order]).clip(lower=0)
+    hi = (ci.pivot(index="judge", columns="condition", values="hi")[order] - M).clip(lower=0)
+    err = np.stack([np.stack([lo[c].values, hi[c].values]) for c in order])  # (series, 2, judges)
+    ax = M.plot(kind="bar", figsize=(11, 4.5), width=0.85, yerr=err, capsize=2, error_kw={"elinewidth": 0.8})
     ax.set_ylabel("Mean absolute error (PHQ-9 points, lower is better)")
     ax.set_title("PHQ-9 scoring error by language and judge")
     ax.legend(labels, fontsize=8)
