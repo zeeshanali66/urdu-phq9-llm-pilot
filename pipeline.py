@@ -20,7 +20,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 RES = os.path.join(HERE, "results")
 OLLAMA = "http://localhost:11434/api/chat"
-JUDGES = ["llama3.1:8b", "qwen2.5:7b", "gemma3:12b"]
+JUDGES = ["llama3.1:8b", "qwen2.5:7b", "gemma3:12b",  # previous generation (run 2026-11-22)
+          "qwen3.5:9b", "gemma4:12b"]  # newest that fit 8 GB VRAM (Feb/Apr 2026)
 LANGS = ["en", "ur", "ru"]
 CONDITIONS = ["en", "ur", "ru", "ur2en", "ru2en", "ur_rag", "ru_rag"]
 EMBED_MODEL = "bge-m3"  # multilingual embedding model (covers Urdu and Latin-script text)
@@ -40,6 +41,8 @@ def chat(model, system, user, num_predict=200, as_json=False):
                "options": {"temperature": 0, "seed": 42, "num_predict": num_predict, "num_ctx": 8192}}
     if as_json:
         payload["format"] = "json"
+    if model.startswith(("qwen3", "gemma4")):
+        payload["think"] = False  # newest models have a reasoning mode; keep outputs comparable and short
     body = json.dumps(payload).encode()
     for attempt in range(3):
         try:
