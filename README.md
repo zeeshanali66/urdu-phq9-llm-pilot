@@ -39,6 +39,19 @@ Mental-health chatbots and LLM-based screening tools are mostly built and tested
 - **Glossary RAG works much better with a stronger model.** For Gemma 4, it cut Roman Urdu error from 1.00 to **0.13** (Holm p = 0.014), about the same as English, and Urdu-script error from 0.83 to 0.47. With Gemma 3, the same glossary had *hurt* Urdu script. One reading is that a stronger model can make use of retrieved cultural context, while a weaker one gets distracted by it. This needs testing with more personas before it is a claim.
 - Caveats: 30 synthetic personas, one seed, and the native-speaker validation is still in progress.
 
+
+### A simpler fix: a fixed frequency table in the prompt (3 judges)
+Instead of retrieval, we added one short, fixed table mapping common Urdu / Roman Urdu frequency phrases (kabhi kabhi,
+aksar, zyada tar, roz, taqreeban har roz, ...) to the PHQ-9 0-3 scale.
+- **Gemma 4: Roman Urdu error fell from 1.00 to 0.07** (Holm p < 0.001), statistically indistinguishable from English;
+  Urdu script 0.83 -> 0.33.
+- **Qwen 3.5:** Urdu 1.33 -> 0.70, Roman Urdu 1.70 -> 0.97 (trend; not significant after correction).
+- **Gemma 3:** the table did **not** hurt, unlike glossary RAG (Urdu-script error 1.13 with the table vs 2.33 with RAG).
+- A fixed table matched retrieval for the strong models and was safer for the weaker one, with no embedding model.
+  Like the glossary, it overlaps with the phrasing used to write the dialogues, so it is an optimistic upper bound.
+- Follow-up: a logit-lens study ([roman-urdu-logit-lens](https://github.com/zeeshanali66/roman-urdu-logit-lens)) found
+  that small models do not understand "nearly every day" (taqreeban ...) in Roman Urdu at all.
+
 Full tables: [`results/RESULTS.md`](results/RESULTS.md). Figures: `results/fig1_mae.png`, `results/fig2_sensitivity.png`.
 
 ## Research log
@@ -59,6 +72,7 @@ Requires Python 3.10+, `pandas`, `numpy` and `matplotlib`.
 - `data/ratings.jsonl`, `data/translations.jsonl`: raw judge outputs
 
 ## Limitations
+A native speaker noted that some dialogue phrasing is more textbook than everyday speech (e.g. "kuch din" where people usually say "kabhi kabhi", and "zyada tar din" instead of "zyada tar"). Real users' wording varies more, so the gap may be larger in practice.
 This is a small pilot: 30 personas, synthetic AI-assisted dialogues from a single source, no real patients, and 7–12B models only. The glossary was written alongside the dialogues, so the RAG results are an optimistic upper bound for what a glossary can do. It is not a clinical tool and must not be used to assess real people.
 
 ## Author

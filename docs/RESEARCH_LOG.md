@@ -76,3 +76,14 @@ Before the full run, we tested one judge (Llama 3.1 8B) on two personas. For a s
 - Adding two judges doubles the size of the Holm correction family, so the earlier "significant" Llama RAG result (p = 0.041 with 3 judges) is p = 0.064 with 5. We report both instead of choosing the nicer one.
 **What we found.** Gemma 4 is far more accurate (English MAE 0.17), but its error still rises about 5× in Urdu script and 6× in Roman Urdu. English vs Roman Urdu is significant after correction (p = 0.006). Translate-then-score again did not help. Glossary RAG brought Gemma 4's Roman Urdu error down to the English level (1.00 → 0.13, Holm p = 0.014), the opposite of what it did for Gemma 3 on Urdu script. Gemma 4 also over-estimates rather than under-estimates outside English.
 **What it means.** Newer models shrink the error but not the language gap. Retrieval of culturally specific phrasing looks more promising with stronger models; testing that on more personas and real (consented, anonymized) text is the natural next step.
+
+### 16. A simpler mitigation, and a native speaker's correction
+**Question.** Is retrieval needed, or does a short fixed table of frequency phrases work as well?
+**Design.** Same 30 personas, 3 judges (Gemma 3, Qwen 3.5, Gemma 4), Urdu and Roman Urdu with the table prepended;
+ratings saved separately (`data/ratings_hint.jsonl`, `results/RESULTS_hint.md`).
+**Result.** For Gemma 4 the table brought Roman Urdu to the English level (1.00 -> 0.07, Holm p < 0.001). For Gemma 3 it
+avoided the harm that RAG caused on Urdu script. Same caveat as RAG: an optimistic upper bound.
+**Correction from a native speaker.** People usually say "kabhi kabhi" rather than "kuch din", and "zyada tar" without
+"din"; "taqreeban roz" or "taqreeban har din" for nearly every day, while plain "roz" means exactly every day. Our
+dialogues use the more textbook forms. We added this to the limitations and used several everyday phrasings in the
+follow-up logit-lens study.
