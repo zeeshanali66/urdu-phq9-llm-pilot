@@ -67,3 +67,12 @@ Before the full run, we tested one judge (Llama 3.1 8B) on two personas. For a s
 - Roman Urdu costs about **1.3–1.7× English on every tokenizer**.
 - Urdu script splits the tokenizers into two groups. Newer multilingual ones (Gemma 3, GPT-4o, Mistral-Nemo) make Urdu script *cheaper* than Roman Urdu (0.92–0.94×). English-centric ones (Llama 3.1, Qwen 2.5, Phi-3.5, GPT-4) make it **1.75–2.4× more expensive**.
 - **A hint, not a result:** Gemma 3, the judge with the most Urdu-efficient tokenizer, also had the lowest Urdu error. With three judges this proves nothing, but it is worth testing with more models.
+
+### 15. Adding the newest models (Qwen 3.5 9B, Gemma 4 12B)
+**Question.** Is the language gap just a weakness of older small models, which newer ones fix?
+**Problems and fixes.**
+- Both new models "think" before answering by default. That made outputs slow and sometimes put text before the JSON. We turned thinking off (`think: false`) so every judge gets the same kind of prompt and answers in one step. All 1050 new outputs parsed.
+- Midway the run looked stalled (GPU near 0%, no model loaded). It was swapping between Gemma 4 and the `bge-m3` embedding model for the RAG condition, which only 8 GB of VRAM cannot hold together. It was slow (about 2 h 45 min), not broken; a later version should embed all turns once up front.
+- Adding two judges doubles the size of the Holm correction family, so the earlier "significant" Llama RAG result (p = 0.041 with 3 judges) is p = 0.064 with 5. We report both instead of choosing the nicer one.
+**What we found.** Gemma 4 is far more accurate (English MAE 0.17), but its error still rises about 5× in Urdu script and 6× in Roman Urdu. English vs Roman Urdu is significant after correction (p = 0.006). Translate-then-score again did not help. Glossary RAG brought Gemma 4's Roman Urdu error down to the English level (1.00 → 0.13, Holm p = 0.014), the opposite of what it did for Gemma 3 on Urdu script. Gemma 4 also over-estimates rather than under-estimates outside English.
+**What it means.** Newer models shrink the error but not the language gap. Retrieval of culturally specific phrasing looks more promising with stronger models; testing that on more personas and real (consented, anonymized) text is the natural next step.
